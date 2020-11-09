@@ -1,0 +1,9 @@
+﻿<Application x:Class="Livroteca.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Livroteca"
+             StartupUri="main_login_window.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

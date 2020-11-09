@@ -1,0 +1,20 @@
+﻿<Window x:Class="Livroteca.views.dialog_views.user_not_found"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Livroteca.views.dialog_views"
+        xmlns:gif="clr-namespace:XamlAnimatedGif;assembly=XamlAnimatedGif"
+        mc:Ignorable="d"
+        Title="Livroteca" Height="220" Width="450" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" ResizeMode="NoResize" >
+
+    <Grid>
+        <Border Padding="10, 5, 10, 5">
+            <StackPanel>
+                <Image  gif:AnimationBehavior.SourceUri="../../assets/invalid_key.gif" Height="100" Width="100" />
+                <TextBlock  Text="Usuario ou senha invalida !" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" />
+            </StackPanel>
+
+        </Border>
+    </Grid>
+</Window>
