@@ -7,7 +7,7 @@ namespace Livroteca.services
 {
     public class MongodbAcess
     {
-        MongoClient baselink = new MongoClient("mongodb+srv://joaocarlos:joaocarlos18@cluster0.foaek.mongodb.net/livroteca?retryWrites=true&w=majority");
+        MongoClient baselink = new MongoClient("mongodb+srv://<user>:<pass>@cluster0.foaek.mongodb.net/livroteca?retryWrites=true&w=majority");
         public bool getUser(string cpf)
         {
             var database = baselink.GetDatabase("usuarios");
